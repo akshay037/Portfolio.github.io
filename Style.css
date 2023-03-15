@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 5%;
+    margin-top: 25px;    
+}
+.logo a{
+    color: #000;
+}
+.logo a span{
+    color: crimson;
+}
+.home-content{
+    margin-top: 10%;
+}
+.home .home-content .text-1{
+    font-size: 25px;
+    margin-left: 29%;
+}
+.home .home-content .text-2{
+    font-size: 65px;
+    font-weight: 600;
+    text-align: center;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+    margin-left: 29%;
+}
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+.btn{
+    background-color: crimson;    
+    height: 35px;
+    width: 90px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
