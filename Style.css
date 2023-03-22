@@ -30,15 +30,6 @@
     font-weight: 600;
     text-align: center;
 }
-.home .home-content .text-3{
-    font-size: 40px;
-    margin: 5px 0;
-    margin-left: 29%;
-}
-.home .home-content .text-3 span{
-    color: crimson;
-    font-weight: 500;
-}
 .center{
     margin-top: 7%;
     display: flex;
@@ -107,4 +98,37 @@ a {
 }
 .typing{
     font-size: 45px;
+}
+.container{
+    width: 400px;
+    overflow: hidden;
+    margin-left: 29%;
+}
+.container .text{
+    position: relative;
+    color: crimson;
+    font-size: 40px;
+    font-weight: 500;
+}
+.container .text.first-text{
+    color: #000;
+}
+.text.sec-text:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #FFF;
+    border-left: 2px solid crimson;
+    animation: animate 4s steps(20) infinite;
+}
+@keyframes animate{
+    40%, 60%{
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
 }
